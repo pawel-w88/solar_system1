@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('universe.jpg');
+    background-image: url('./images/galaxy.gif');
     background-size: cover;
     background-repeat: no-repeat;
   }
