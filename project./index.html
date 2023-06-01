@@ -4,22 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
   </head>
   <body>
     <header>
-      <h1>Calculate a weight of an object on a planet</h1>
-
+      <h1>Calculate the weight of an object on a planet</h1>
       <input type="text" id="mass" placeholder="Mass in Kilogram" />
-      <select>
-        <option value="none">--select planet--</option>
+      <select id="planetSelect">
+        <option value="none">-- Select planet --</option>
+        <option value="earth">Earth</option>
+        <option value="jupiter">Jupiter</option>
+        <option value="mars">Mars</option>
+        <option value="mercury">Mercury</option>
+        <option value="mars">Mars</option>
+        <option value="moon">Moon</option>
       </select>
-      <button>Calculate weight</button>
+      <button onclick="calculateWeight()">Calculate weight</button>
     </header>
     <main>
       <div class="flex-container">
         <div class="flex-item image">
-          <img src="./images/earth.png" class="planet-image" />
+          <img src="./images/earth.png" class="planet-image" id="planetImage" />
         </div>
         <div class="flex-item description"></div>
       </div>
