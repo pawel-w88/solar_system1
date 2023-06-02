@@ -5,4 +5,49 @@ body {
     background-repeat: no-repeat;
   }
 
- 
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  h1 {
+    color: whitesmoke;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"] {
+    width: 20%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  #planet-image {
+    display: block;
+    max-width: 100%;
+    margin-top: 10px;
+  }
