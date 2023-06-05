@@ -1,8 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('./images/galaxy.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100vw;
+  background-image: url("./images/galaxy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  width: 20%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+#planetSelect {
+  width: 20%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: solid 2px white;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.description {
+  color: #fff;
+  font-size: 3rem;
+  min-width: 300px;
+  min-height: 200px;
+  text-align: center;
+  align-self: center;
+}
 
  
